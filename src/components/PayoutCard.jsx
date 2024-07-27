@@ -17,7 +17,7 @@ export function PayoutCard({ varient, title, amount, ordersCount, footerTitle, f
                 </div> : null }
             </div>
     </div>
-    {varient === "primary" ? <div className="bg-[#64748b] flex justify-between text-cream-300 text-lg font-normal rounded shadow px-5 py-2 rounded-t-none">
+    {varient === "primary" ? <div className="bg-[#64748b] flex justify-between text-cream-300 text-mde font-normal rounded shadow px-5 py-2 rounded-t-none">
                 <div>{footerTitle}:</div>
                 <div>{footerVal}</div>
             </div> : null }

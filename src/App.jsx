@@ -15,7 +15,7 @@ function App() {
     <div className='md:pl-[17em]'>
       <PayoutHeader></PayoutHeader>
       <PayoutContent></PayoutContent>
-      <div className='text-center text-gray-500 text-lg font-medium py-5 flex gap-2 items-center justify-center'>Made with <span><Heart className='fill-red-600 stroke-none' /> </span> By <span className='text-gray-500 underline font-medium'>Kanishk Mogalraj</span></div>
+      <div className='text-center text-gray-500 text-md font-medium py-5 flex gap-2 items-center justify-center'>Made with <span><Heart className='fill-red-600 stroke-none' /> </span> By <span className='text-gray-500 underline font-medium'>Kanishk Mogalraj</span></div>
     </div>
     </div>
   )
