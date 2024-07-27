@@ -7,7 +7,7 @@ export function PayoutHeader() {
 
     return <div>
         {isMenu && <div className="md:hidden" onClick={() => setIsMenu(false)}><NavBar /></div> } 
-    <div className="grid grid-cols-3 md:grid-cols-12 bg-white p-5 px-0 md:place-items-start">
+    <div className="grid grid-cols-3 md:grid-cols-12 bg-white p-5 px-0 md:place-items-start items-center gap-3">
         <div className="md:col-span-3 flex justify-start items-center gap-3 md:gap-0">
         <button onClick={() => setIsMenu(true)}><Menu className='md:hidden pl-3 text-black' size="45" /></button>
             <div className="text-lg text-black text-md sm:text-2xl">Instant Pay</div>
@@ -26,7 +26,7 @@ export function PayoutHeader() {
             <input className="w-full outline-0 bg-transparent text-base" placeholder="Search features, tutorials, etc ..."></input>
         </div>
 
-        <div className="w-full md:col-span-3 flex justify-end align-center gap-3">
+        <div className="w-full md:col-span-3 flex justify-end align-center gap-3 place-self-center">
             <div className="w-12 h-12 rounded-full bg-[#f2f2f2] flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
